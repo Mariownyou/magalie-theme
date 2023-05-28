@@ -1,0 +1,21 @@
+{
+  "name": "magalie-theme",
+  "displayName": "magalie-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Magalie Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Magalie Theme-color-theme.json"
+      }
+    ]
+  }
+}

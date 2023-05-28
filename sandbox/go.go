@@ -15,3 +15,19 @@ func main() {
 func SomeFunc(word string) (string, error) {
 	return word, nil
 }
+
+type Person struct {
+	Name string
+	Age  int
+}
+
+func (p Person) SayHello() {
+	fmt.Printf("Hello, my name is %s\n", p.Name)
+}
+
+func NewPerson() Person {
+	return Person{
+		Name: "John",
+		Age:  30,
+	}
+}

@@ -10,10 +10,11 @@
 			"name": "Comments",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#AAAAAA"
 			}
 		},
@@ -66,7 +67,16 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#4B83CD"
+			}
+		},
+		{
+			"name": "Python: Upper Case Constants",
+			"scope": [
+				"constant.other.caps"
+			],
+			"settings": {
+				"foreground": "#333333"
 			}
 		},
 		{
@@ -74,45 +84,45 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"variable.language"
+				"variable.language",
 			],
 			"settings": {
 				"foreground": "#AB6526"
 			}
 		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"support.variable"
-			],
-			"settings": {
-				"foreground": "#7A3E9D"
-			}
-		},
-		{
-			"name": "Functions",
-			"scope": [
-				"entity.name.function",
-				"support.function"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
-			}
-		},
-		{
-			"name": "Classes",
-			"scope": [
-				"entity.name.type",
-				"entity.other.inherited-class",
-				"support.class"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#7A3E9D"
-			}
-		},
+		// {
+		// 	"name": "Variables",
+		// 	"scope": [
+		// 		"variable",
+		// 		"support.variable"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#7A3E9D"
+		// 	}
+		// },
+		// {
+		// 	"name": "Functions",
+		// 	"scope": [
+		// 		"entity.name.function",
+		// 		"support.function"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "bold",
+		// 		"foreground": "#AA3731"
+		// 	}
+		// },
+		// {
+		// 	"name": "Classes",
+		// 	"scope": [
+		// 		"entity.name.type",
+		// 		"entity.other.inherited-class",
+		// 		"support.class"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "bold",
+		// 		"foreground": "#7A3E9D"
+		// 	}
+		// },
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
@@ -328,7 +338,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -364,16 +374,6 @@
 			"scope": "markup.list",
 			"settings": {
 				"foreground": "#4B83CD"
-			}
-		},
-		{
-			"name": "Markup Styling",
-			"scope": [
-				"markup.bold",
-				"markup.italic"
-			],
-			"settings": {
-				"foreground": "#448C27"
 			}
 		},
 		{

@@ -3,10 +3,31 @@ import os
 class A:
     pass
 
+'''
+asdasd
+asdasd
+asdasd
+'''
+
+"""
+Some docsstring
+"""
+
+
+SOME_CONSTANT = 1
+BOOL = True
+ARRAY = [1, 2, 3]
+
+SYMBOLS = '!@#$%^&*()_+'
+SYMBOL = '@'
+REGEX = r'[\w\.-]+@[\w\.-]+'
+
+
 class SomeClass(A):
     def __init__(self) -> None:
         super().__init__()
 
+    @staticmethod
     def some_method(self):
         print("some_method")
 

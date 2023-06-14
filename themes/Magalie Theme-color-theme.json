@@ -3,7 +3,36 @@
 	"colors": {
 		"editor.background": "#f5f5f5",
 		"editor.foreground": "#333333",
-        "list.activeSelectionIconForeground": "#fff"
+
+		"editor.lineHighlightBackground": "#F0F0F0",
+		"editor.selectionBackground": "#BFDBFE",
+		"editor.selectionHighlightBackground": "#CFCFCF81",
+		"panel.background": "#F0F0F0",
+		"sideBar.background": "#F0F0F0",
+		"editorGroupHeader.tabsBackground": "#F0F0F0",
+		"activityBar.background": "#F0F0F0",
+		"activityBar.foreground": "#007ACC",
+		"editorLineNumber.foreground": "#9DA39A",
+		"editorCursor.foreground": "#007ACC",
+		"editor.findMatchBackground": "#FFBC5D",
+		"editor.findMatchHighlightBackground": "#FFD86381",
+		"statusBar.background": "#DDDDDD",
+		"statusBar.foreground": "#474747",
+
+		"statusBar.debuggingBackground": "#FFBC5D",
+		"statusBar.debuggingForeground": "#000",
+		"statusBar.noFolderBackground": "#7A3E9D",
+		"statusBar.noFolderForeground": "#fff",
+
+        // "list.activeSelectionIconForeground": "#fff",
+		"list.activeSelectionBackground": "#DDDDDD",
+		"list.activeSelectionForeground": "#000000",
+		"list.inactiveSelectionBackground": "#E6E6E6",
+		"list.focusHighlightForeground": "#007ACC",
+		"focusBorder": "#CCCCCC",
+
+		"quickInputList.focusForeground": "#000000",
+		"quickInputList.focusBackground": "#DDDDDD",
 	},
 	"tokenColors": [
 		{
@@ -64,7 +93,7 @@
 			"name": "Types",
 			"scope": [
 				"storage.type",
-				"support.type"
+				// "support.type"
 			],
 			"settings": {
 				"foreground": "#4B83CD"
@@ -84,10 +113,12 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"variable.language",
+				// "variable.language",
 			],
 			"settings": {
 				"foreground": "#AB6526"
+				// "foreground": "#CC9542"
+				// "foreground": "#C7A258",
 			}
 		},
 		{
@@ -113,6 +144,8 @@
 			],
 			"settings": {
 				"foreground": "#AB6526"
+				// "foreground": "#CC9542"
+				// "foreground": "#C7A258"
 			}
 		},
 		{
@@ -218,7 +251,7 @@
 			"name": "CSS: Property Names",
 			"scope": [
 				"meta.property-name",
-				"support.type.property-name"
+				// "support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#AB6526"

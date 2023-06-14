@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+	var err error
+	err = fmt.Errorf("some error")
+	fmt.Println(err)
+
 	fmt.Println("Hello, World!")
 	regexp := regexp.MustCompile(`\d+`)
 	symbol := string('%') + string(0x201231ba) + "s"

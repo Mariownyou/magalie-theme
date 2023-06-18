@@ -228,11 +228,11 @@
 		{
 			"name": "HTML: Entities",
 			"scope": [
-				"constant.character.entity",
+				// "constant.character.entity",
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#777777"
 			}
 		},
 		{
@@ -244,30 +244,31 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#4B83CD"
 			}
 		},
 		{
 			"name": "CSS: Property Names",
 			"scope": [
 				"meta.property-name",
+				"support.constant.property-value"
 				// "support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#AB6526"
 			}
 		},
-		{
-			"name": "CSS: Property Values",
-			"scope": [
-				"meta.property-value",
-				"meta.property-value constant.other",
-				"support.constant.property-value"
-			],
-			"settings": {
-				"foreground": "#448C27"
-			}
-		},
+		// {
+		// 	"name": "CSS: Property Values",
+		// 	"scope": [
+		// 		"meta.property-value",
+		// 		"meta.property-value constant.other",
+		// 		"support.constant.property-value"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#448C27"
+		// 	}
+		// },
 		{
 			"name": "CSS: Important Keyword",
 			"scope": "keyword.other.important",

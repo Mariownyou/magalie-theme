@@ -1,0 +1,6 @@
+@import url(__box/list__box.css);
+
+.list{
+    width: 961px;
+    margin: 12px auto 72px;
+}

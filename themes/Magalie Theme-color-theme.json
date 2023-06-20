@@ -17,8 +17,8 @@
 		"editorCursor.foreground": "#007ACC",
 		"editor.findMatchBackground": "#FFBC5D",
 		"editor.findMatchHighlightBackground": "#FFD86381",
-		"statusBar.foreground": "#474747",
 
+		"statusBar.foreground": "#474747",
 		"statusBar.debuggingBackground": "#FFBC5D",
 		"statusBar.debuggingForeground": "#000",
 		"statusBar.noFolderBackground": "#7A3E9D",
@@ -26,6 +26,7 @@
 		"statusBar.background": "#DDDDDD",
 		"statusBarItem.remoteBackground": "#DDDDDD",
 		"statusBarItem.remoteForeground": "#333333",
+		"errorForeground": "#AA3731",
 
 		"list.activeSelectionBackground": "#DDDDDD",
 		"list.activeSelectionForeground": "#000000",

@@ -91,7 +91,7 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#AA3731"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#AA3731"
 			}
 		},
 		{
@@ -323,7 +323,7 @@
 			"name": "Markup: Error",
 			"scope": "markup.error",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#AA3731"
 			}
 		},
 		{
@@ -388,7 +388,7 @@
 			"name": "Markup: Traceback",
 			"scope": "markup.traceback",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#AA3731"
 			}
 		},
 		{

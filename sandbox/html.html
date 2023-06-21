@@ -7,6 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-
+      <!-- Billing Company -->
+      <div class="form-group row">
+        <div class="col-md-4">
+          <label class="form-control-label">Billing Company</label>
+        </div>
+        <div class="col-md-8">
+          <ui-select ng-model="$ctrl.accountingSettings.bill_to" theme="selectize" class="form-control"
+                      title="Choose billing balance type" tagging="$root.uiSelectTagHandler">
+            <ui-select-match placeholder="Select or search billing balance type">{{$select.selected.display_name}}
+            </ui-select-match>
+            <ui-select-choices
+              repeat="balance_type.value as balance_type in $ctrl.options.actions.POST.billing_balance_type.choices | filter: $select.search">
+              <div ng-bind-html="balance_type.display_name | highlight: $select.search"></div>
+            </ui-select-choices>
+          </ui-select>
+          <div field-errors="billing_balance_type"></div>
+        </div>
+      </div>
 </body>
 </html>

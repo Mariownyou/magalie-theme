@@ -43,6 +43,4 @@ Consider using these settings to reduce visual noize:
 
 
 ## Examples
-![Python](examples/default/python.jpeg)
-
-![Golang](examples/default/golang.jpeg)
+![Golang](examples/default/golang.png)

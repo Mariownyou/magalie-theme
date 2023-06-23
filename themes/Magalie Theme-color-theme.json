@@ -14,6 +14,7 @@
 		"activityBar.foreground": "#007ACC",
 		"activityBar.border": "#F0F0F0",
 		"editorLineNumber.foreground": "#9DA39A",
+		"editorLineNumber.activeForeground": "#000",
 		"editorCursor.foreground": "#007ACC",
 		"editor.findMatchBackground": "#FFBC5D",
 		"editor.findMatchHighlightBackground": "#FFD86381",
@@ -33,20 +34,25 @@
 		"list.inactiveSelectionBackground": "#E6E6E6",
 		"list.focusHighlightForeground": "#007ACC",
 
-		"quickInputList.focusForeground": "#000000",
-		"quickInputList.focusBackground": "#DDDDDD",
+		// "quickInputList.focusForeground": "#000000",
+		// "quickInputList.focusBackground": "#DDDDDD",
+		"quickInputList.focusBackground": "#E8E8E8",
 
 		"gitDecoration.modifiedResourceForeground": "#4B83CD",
 
 		// flat variant
 		"titleBar.activeBackground": "#F0F0F0",
+		"titleBar.inactiveBackground": "#F0F0F0",
 		"sideBar.background": "#F0F0F0",
 		"sideBar.border": "#F0F0F0",
 		"sideBarSectionHeader.border": "#DDDDDD",
 		"sideBarSectionHeader.background": "#DDDDDD",
 		"sideBarSectionHeader.foreground": "#333333",
 
-		"focusBorder": "#F0F0F0",
+		"focusBorder": "#ff000000",
+		"scrollbar.shadow": "#ff000000",
+		"widget.shadow": "#DDDDDD",
+
 		"tab.border": "#ECECEC",
 		"tab.inactiveBackground": "#F0F0F0",
 		"breadcrumb.background": "#f5f5f5",
@@ -55,7 +61,6 @@
 		"editorGroupHeader.tabsBorder": "#f5f5f5",
 		"editorGroupHeader.tabsBackground": "#F0F0F0",
 		"editorOverviewRuler.border": "#F0F0F0",
-		"scrollbar.shadow": "#f5f5f5"
 	},
 	"tokenColors": [
 		{

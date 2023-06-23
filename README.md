@@ -1,5 +1,5 @@
 # Magalie theme
-minimalistic theme for vs code with many variants
+minimalistic theme for vs code with emphasis on readability and UI experience
 
 ## Motivation
 Shares the same motivation as Alabaster and Chalice themes, but is made with an emphasis on more traditional programming languages rather than lisps.

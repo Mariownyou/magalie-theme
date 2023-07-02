@@ -34,6 +34,7 @@ Consider using these settings to reduce visual noize:
     "workbench.tree.indent": 10,
     "editor.cursorBlinking": "solid",
     "breadcrumbs.icons": false,
+    "outline.icons": false, // disables icons in breadcrumbs
 
     // scrollbar size (smaller)
     "editor.scrollbar.verticalScrollbarSize": 10,

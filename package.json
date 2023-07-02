@@ -16,9 +16,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Magalie Theme",
+        "label": "Gray (Magalie)",
         "uiTheme": "vs",
-        "path": "./themes/Magalie Theme-color-theme.json"
+        "path": "./themes/gray-color-theme.json"
+      },
+      {
+        "label": "Light (Magalie)",
+        "uiTheme": "vs",
+        "path": "./themes/light-color-theme.json"
       }
     ]
   }

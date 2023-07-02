@@ -40,7 +40,6 @@
 
 		"gitDecoration.modifiedResourceForeground": "#4B83CD",
 
-		// flat variant
 		"titleBar.activeBackground": "#E3E3E3",
 		"titleBar.inactiveBackground": "#E3E3E3",
 		"sideBar.background": "#E3E3E3",

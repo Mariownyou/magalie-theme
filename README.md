@@ -45,3 +45,4 @@ Consider using these settings to reduce visual noize:
 
 ## Examples
 ![Golang](examples/default/golang.png)
+![Golang](examples/gray/golang.png)

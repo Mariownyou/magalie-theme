@@ -276,6 +276,15 @@
 			}
 		},
 		{
+			"name": "JSON Keys",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#333333"
+			}
+		},
+		{
 			"name": "CSS: Property Names",
 			"scope": [
 				"meta.property-name",

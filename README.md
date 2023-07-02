@@ -48,5 +48,17 @@ Consider using these settings to reduce visual noize:
 ![Golang](examples/gray/golang.png)
 
 
+## Languages
+Well tested with:
+- Golang
+- Python
+- Html
+- Json
+- JS
+- CSS
+- Rust
+- Markdown
+
+
 ## License
 [MIT](LICENSE)

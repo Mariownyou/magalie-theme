@@ -1,10 +1,12 @@
 {
   "name": "magalie-theme",
-  "displayName": "magalie-theme",
+  "displayName": "Magalie Theme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Mariownyou/magalie-theme"
   },
+  "publisher": "Mariownyou",
+  "icon": "icon.png",
   "description": "",
   "version": "0.0.1",
   "engines": {

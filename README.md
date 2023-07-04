@@ -1,5 +1,5 @@
 # Magalie theme
-Minimalistic theme for vs code with emphasis on readability and UI experience
+Minimalistic theme for vs code with emphasis on readability and UI experience. [Marketplace](https://marketplace.visualstudio.com/items?itemName=Mariownyou.magalie-theme)
 
 ## Motivation
 Shares the same motivation as Alabaster and Chalice themes, but is made with an emphasis on more traditional programming languages rather than lisps.
